@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="toolbar_title" type="id"/>
+    <item name="facingButton" type="id"/>
+    <item name="flashButton" type="id"/>
+    <item name="captureImageButton" type="id"/>
+    <item name="captureVideoButton" type="id"/>
+</resources>

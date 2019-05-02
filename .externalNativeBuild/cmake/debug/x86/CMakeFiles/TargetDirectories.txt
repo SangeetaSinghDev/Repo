@@ -1,0 +1,4 @@
+C:/Users/Sangeeta/AndroidStudioProjects/Repo/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/jpegTransformer.dir
+C:/Users/Sangeeta/AndroidStudioProjects/Repo/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/yuvOperator.dir
+C:/Users/Sangeeta/AndroidStudioProjects/Repo/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/edit_cache.dir
+C:/Users/Sangeeta/AndroidStudioProjects/Repo/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/rebuild_cache.dir

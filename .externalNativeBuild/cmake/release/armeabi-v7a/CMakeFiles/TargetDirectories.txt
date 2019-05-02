@@ -1,0 +1,4 @@
+C:/Users/Sangeeta/AndroidStudioProjects/Repo/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/jpegTransformer.dir
+C:/Users/Sangeeta/AndroidStudioProjects/Repo/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/yuvOperator.dir
+C:/Users/Sangeeta/AndroidStudioProjects/Repo/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/Sangeeta/AndroidStudioProjects/Repo/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "C:\\Users\\Sangeeta\\AndroidStudioProjects\\Repo\\app\\src\\main\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\Sangeeta\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\Sangeeta\\AndroidStudioProjects\\Repo\\app\\.externalNativeBuild\\cmake\\release\\x86_64 --target clean"
+  ],
+  "libraries": {
+    "libjpeg-Release-x86_64": {
+      "artifactName": "libjpeg",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Sangeeta\\AndroidStudioProjects\\Repo\\app\\src\\main\\jniLibs\\x86_64\\libjpeg-turbo.a"
+    },
+    "jpegTransformer-Release-x86_64": {
+      "artifactName": "jpegTransformer",
+      "buildCommand": "C:\\Users\\Sangeeta\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\Sangeeta\\AndroidStudioProjects\\Repo\\app\\.externalNativeBuild\\cmake\\release\\x86_64 --target jpegTransformer",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Sangeeta\\AndroidStudioProjects\\Repo\\app\\build\\intermediates\\cmake\\release\\obj\\x86_64\\libjpegTransformer.so"
+    },
+    "yuvOperator-Release-x86_64": {
+      "artifactName": "yuvOperator",
+      "buildCommand": "C:\\Users\\Sangeeta\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\Sangeeta\\AndroidStudioProjects\\Repo\\app\\.externalNativeBuild\\cmake\\release\\x86_64 --target yuvOperator",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Sangeeta\\AndroidStudioProjects\\Repo\\app\\build\\intermediates\\cmake\\release\\obj\\x86_64\\libyuvOperator.so"
+    }
+  }
+}

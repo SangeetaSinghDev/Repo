@@ -1,0 +1,8 @@
+Executable : C:\Users\Sangeeta\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\cmake.exe
+arguments : 
+--build
+C:\Users\Sangeeta\AndroidStudioProjects\Repo\app\.externalNativeBuild\cmake\debug\arm64-v8a
+--target
+yuvOperator
+jvmArgs : 
+

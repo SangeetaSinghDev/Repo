@@ -1,0 +1,67 @@
+
+{
+	"buildFiles" : 
+	[
+		"C:/Users/Sangeeta/AndroidStudioProjects/Repo/app/src/main/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"C:\\Users\\Sangeeta\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\Sangeeta\\AndroidStudioProjects\\Repo\\app\\.externalNativeBuild\\cmake\\debug\\arm64-v8a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"jpegTransformer-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "jpegTransformer",
+			"buildCommand" : "C:\\Users\\Sangeeta\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\Sangeeta\\AndroidStudioProjects\\Repo\\app\\.externalNativeBuild\\cmake\\debug\\arm64-v8a --target jpegTransformer",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android27 --gcc-toolchain=C:/Users/Sangeeta/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Sangeeta/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DjpegTransformer_EXPORTS -IC:\\Users\\Sangeeta\\AndroidStudioProjects\\Repo\\app\\src\\main\\cpp\\libjpeg\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/Sangeeta/AndroidStudioProjects/Repo/app/src/main/cpp/JniJpegTransformer.cpp",
+					"workingDirectory" : "C:/Users/Sangeeta/AndroidStudioProjects/Repo/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+				}
+			],
+			"output" : "C:/Users/Sangeeta/AndroidStudioProjects/Repo/app/build/intermediates/cmake/debug/obj/arm64-v8a/libjpegTransformer.so",
+			"toolchain" : "346133785"
+		},
+		"libjpeg-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "libjpeg",
+			"buildType" : "debug",
+			"output" : "C:/Users/Sangeeta/AndroidStudioProjects/Repo/app/src/main/jniLibs/arm64-v8a/libjpeg-turbo.a",
+			"toolchain" : "346133785"
+		},
+		"yuvOperator-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "yuvOperator",
+			"buildCommand" : "C:\\Users\\Sangeeta\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\Sangeeta\\AndroidStudioProjects\\Repo\\app\\.externalNativeBuild\\cmake\\debug\\arm64-v8a --target yuvOperator",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android27 --gcc-toolchain=C:/Users/Sangeeta/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Sangeeta/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DyuvOperator_EXPORTS -IC:\\Users\\Sangeeta\\AndroidStudioProjects\\Repo\\app\\src\\main\\cpp\\libjpeg\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/Sangeeta/AndroidStudioProjects/Repo/app/src/main/cpp/JniYuvOperator.cpp",
+					"workingDirectory" : "C:/Users/Sangeeta/AndroidStudioProjects/Repo/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+				}
+			],
+			"output" : "C:/Users/Sangeeta/AndroidStudioProjects/Repo/app/build/intermediates/cmake/debug/obj/arm64-v8a/libyuvOperator.so",
+			"toolchain" : "346133785"
+		}
+	},
+	"toolchains" : 
+	{
+		"346133785" : 
+		{
+			"cCompilerExecutable" : "C:/Users/Sangeeta/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/Users/Sangeeta/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

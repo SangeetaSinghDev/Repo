@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "139784125989",
+    "firebase_url": "https://repo-4f306.firebaseio.com",
+    "project_id": "repo-4f306",
+    "storage_bucket": "repo-4f306.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:139784125989:android:39c6bc4039da4e07",
+        "android_client_info": {
+          "package_name": "com.gohool.repo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "139784125989-bt9kq6d3b36rkhlenj3nssjvtcr9hpob.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gohool.repo",
+            "certificate_hash": "32b00a29ade037d39e898b0a1dbf16e55e3b1100"
+          }
+        },
+        {
+          "client_id": "139784125989-61bbclhlvu4svddbkcupmqqgbupouubg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3jPMro7O_7zmaD5wg-DUiSOzoYV8tTmY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "139784125989-61bbclhlvu4svddbkcupmqqgbupouubg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

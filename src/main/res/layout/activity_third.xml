@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="728dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/CameraTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="112dp"
+            android:layout_marginTop="222dp"
+            android:layout_marginEnd="104dp"
+            android:layout_marginBottom="474dp"
+            android:gravity="center"
+            android:text="@string/preview_description"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="108dp"
+            tools:layout_editor_absoluteY="208dp" />
+
+        <ImageView
+            android:id="@+id/imgPreview"
+            android:layout_width="320dp"
+            android:layout_height="228dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginEnd="41dp"
+            android:layout_marginBottom="380dp"
+            android:contentDescription="@string/ImageTodo"
+            android:foregroundGravity="center"
+            android:scaleType="centerCrop"
+            android:visibility="visible"
+            tools:ignore="MissingConstraints" />
+
+
+    </RelativeLayout>
+
+
+    <EditText
+        android:id="@+id/NameeditText"
+        android:layout_width="321dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/name"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/relativeLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.64"
+        />
+
+    <TableRow
+        android:layout_width="405dp"
+        android:layout_height="99dp"
+        tools:ignore="MissingConstraints"
+        android:padding="14dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NameeditText"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="554dp">
+
+        <Button
+            android:id="@+id/SubmitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/submit"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="110dp"/>
+
+
+        <Button
+            android:id="@+id/NextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/next"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="80dp"/>
+
+    </TableRow>
+</android.support.constraint.ConstraintLayout>

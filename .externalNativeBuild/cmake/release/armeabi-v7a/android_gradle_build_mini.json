@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "C:\\Users\\Sangeeta\\AndroidStudioProjects\\Repo\\app\\src\\main\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\Sangeeta\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\Sangeeta\\AndroidStudioProjects\\Repo\\app\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "yuvOperator-Release-armeabi-v7a": {
+      "artifactName": "yuvOperator",
+      "buildCommand": "C:\\Users\\Sangeeta\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\Sangeeta\\AndroidStudioProjects\\Repo\\app\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target yuvOperator",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Users\\Sangeeta\\AndroidStudioProjects\\Repo\\app\\build\\intermediates\\cmake\\release\\obj\\armeabi-v7a\\libyuvOperator.so"
+    },
+    "jpegTransformer-Release-armeabi-v7a": {
+      "artifactName": "jpegTransformer",
+      "buildCommand": "C:\\Users\\Sangeeta\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\Sangeeta\\AndroidStudioProjects\\Repo\\app\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target jpegTransformer",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Users\\Sangeeta\\AndroidStudioProjects\\Repo\\app\\build\\intermediates\\cmake\\release\\obj\\armeabi-v7a\\libjpegTransformer.so"
+    },
+    "libjpeg-Release-armeabi-v7a": {
+      "artifactName": "libjpeg",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Users\\Sangeeta\\AndroidStudioProjects\\Repo\\app\\src\\main\\jniLibs\\armeabi-v7a\\libjpeg-turbo.a"
+    }
+  }
+}

@@ -1,0 +1,1 @@
+ninja: error: 'C:/Users/Sangeeta/AndroidStudioProjects/Repo/app/src/main/jniLibs/arm64-v8a/libjpeg-turbo.a', needed by 'C:/Users/Sangeeta/AndroidStudioProjects/Repo/app/build/intermediates/cmake/debug/obj/arm64-v8a/libjpegTransformer.so', missing and no known rule to make it
